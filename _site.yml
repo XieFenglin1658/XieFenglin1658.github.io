@@ -1,0 +1,23 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<fx2212@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/XieFenglin1658/
+output:
+  html_document:
+    theme: cerulean
+    
+    
+##this site.yml file is for setting the parameters for how the website is going to look across all of the pages.在这个file中设定的所有 东西都会被统一运用到其他所有pages
+##在这个页面更新之后，其余所有页面的RMD file都需要reknite，不然不会更新
+##navbar--顶部导航
+##icon是图标形状--想用什么形状可以上网搜索(https://fontawesome.com)
+##href是超链接跳转--Hypertext Reference
+
+##不知道的反正就上网查就行了
