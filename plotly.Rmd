@@ -117,3 +117,17 @@ nyc_airbnb |>
   )
 ```
 
+##ggplotly
+##如果是给别人看，不要用这个ggplotly，不好看，如果是自己想要快速查看一下，可以用这个
+
+```{r}
+ggp_scatterplot =
+  nyc_airbnb |> 
+  ggplot(aes(x = lat, y = long, color = price)) +
+  geom_point()
+
+ggplotly(ggp_scatterplot)
+```
+
+
+
