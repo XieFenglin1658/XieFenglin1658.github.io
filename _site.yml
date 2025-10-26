@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: "Plots"
+      href: plots.html
     - icon: fa-envelope fa-lg
       href: mailto:<fx2212@cumc.columbia.edu>
     - icon: fa-github fa-lg
@@ -15,9 +17,13 @@ output:
     
     
 ##this site.yml file is for setting the parameters for how the website is going to look across all of the pages.在这个file中设定的所有 东西都会被统一运用到其他所有pages
-##在这个页面更新之后，其余所有页面的RMD file都需要reknite，不然不会更新
+##在这个页面更新之后，其余所有页面的RMD file都需要reknite，不然不会更新（可以通过Build-Build Website这个方法一次性reknit所有pages
+
 ##navbar--顶部导航
 ##icon是图标形状--想用什么形状可以上网搜索(https://fontawesome.com)
 ##href是超链接跳转--Hypertext Reference
+
+##若想要更换主题（theme），去这个网站找一个你喜欢的（https://bootswatch.com/3/），然后把theme的设定改了就行（确保其他的page的theme设定没有和site.yml冲突（建议删掉其他page的theme设定）
+##不要纠结使用什么theme，选一个看得下去的就行，零人在意这些，不要浪费时间
 
 ##不知道的反正就上网查就行了
